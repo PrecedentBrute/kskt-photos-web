@@ -1,0 +1,36 @@
+
+
+.main-cont{
+    /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.312);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(198, 177, 177, 0.4);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.input-text {
+    @apply font-poppins;
+}
+
+.input-text::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white;
+}
+
+.input-text::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+
+.input-text:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+
+.input-text:-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+}
